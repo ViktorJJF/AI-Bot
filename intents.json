@@ -1,0 +1,26 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hola",
+        "que tal",
+        "que haces",
+        "gusto en verte",
+        "buenos dias",
+        "buenas tardes",
+        "hi how are you "
+      ],
+      "responses": ["Estoy bien, y tu?", "Todo bien por aqui", "wena wena"]
+    },
+    {
+      "tag": "getting_name",
+      "patterns": [
+        "what is your name?",
+        "whats your name",
+        "what should I call you"
+      ],
+      "responses": ["Mi nombre es Pepe el Bot", "Soy pepe el bot :v"]
+    }
+  ]
+}
